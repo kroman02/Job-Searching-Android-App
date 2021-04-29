@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listingsFragment"
+        android:title="Listings"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24" />
+    <item
+        android:title="Notification"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:id="@+id/notificationsFragment"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Item"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+</menu>

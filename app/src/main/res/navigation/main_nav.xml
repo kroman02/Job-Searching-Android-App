@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/listingsFragment">
+
+    <fragment
+        android:id="@+id/listingsFragment"
+        android:name="bbk.finalyearproject.constructionjobs.ListingsFragment"
+        android:label="fragment_listings"
+        tools:layout="@layout/fragment_listings" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="bbk.finalyearproject.constructionjobs.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="bbk.finalyearproject.constructionjobs.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
