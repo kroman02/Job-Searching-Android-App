@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListingDetailActivity">
+
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:text="TextView"
+        />
+
+    <TextView
+        android:id="@+id/detail_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. N"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="122dp"
+        android:layout_below="@+id/detail_title"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/detail_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posted on yyyy-mm-dd"
+        android:layout_toRightOf="@id/imageView3"
+        android:layout_below="@+id/detail_author"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <TextView
+        android:id="@+id/detail_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView3"
+        android:layout_below="@+id/divider2"
+        android:layout_marginTop="33dp"
+        android:textAlignment="viewStart"
+        android:textSize="17sp"
+        android:textColor="@color/light_blue"
+        android:layout_marginLeft="15dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/detail_body"
+        android:layout_marginTop="25dp"
+        android:background="?android:attr/listDivider" />
+
+    <ImageView
+        android:layout_below="@id/divider2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView3"
+        android:layout_width="64dp"
+
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/square_placeholder" />
+
+    <TextView
+        android:id="@+id/detail_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="15dp"
+        android:text="Contact:" />
+
+    <ImageView
+        android:id="@+id/detail_favourite"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignBottom="@+id/detail_date"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/non_fav" />
+
+</RelativeLayout>
+</ScrollView>

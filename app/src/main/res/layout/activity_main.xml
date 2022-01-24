@@ -17,6 +17,8 @@
         app:menu="@menu/bottom_nav"
         app:itemIconTint="@color/bottom_nav_colours"
         app:itemTextColor="@color/bottom_nav_colours"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconSize="35dp"
         />
 
     <fragment

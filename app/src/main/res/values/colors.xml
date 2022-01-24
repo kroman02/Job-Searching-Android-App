@@ -10,5 +10,7 @@
     <color name="neon_red">#f2055c</color>
     <color name="acqua">#04bf9d</color>
     <color name="acqua_dark">#186b5b</color>
-
+    <color name="dark_grey">#9e9e9e</color>
+    <color name="light_grey">#F2F2F2</color>
+    <color name="light_blue">#1091E0</color>
 </resources>

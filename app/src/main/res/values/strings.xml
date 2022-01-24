@@ -6,4 +6,29 @@
     <string name="your_username">Your username</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Register">Register</string>
+    <string name="username">Username</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="profession">Profession</string>
+    <string name="postcode">Postcode</string>
+    <string name="login_instead"><p style="color=black;">Already have an account? Log in</p></string>
+    <string name="contact_number">Contact number</string>
+    <string name="version_1_0">version 1.0</string>
+    <string name="post_title">Post title</string>
+    <string name="create_post">Create post</string>
+    <string name="include_my_contact_number">Include my contact number</string>
+    <string name="characters_left_1000">Characters left: 1000</string>
+    <string name="welcome_user">Welcome user</string>
+    <string name="average_rating_0_00">Average rating: 0.00</string>
+    <string-array name="professions">
+        <item>---</item>
+        <item>Builder</item>
+        <item>Carpenter</item>
+        <item>Electrician</item>
+        <item>Painter and Decorator</item>
+        <item>Plasterer</item>
+        <item>Plumber</item>
+        <item>Tiler</item>
+    </string-array>
 </resources>

@@ -20,4 +20,9 @@
         android:name="bbk.finalyearproject.constructionjobs.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/findUserFragment"
+        android:name="bbk.finalyearproject.constructionjobs.FindUserFragment"
+        android:label="fragment_find_user"
+        tools:layout="@layout/fragment_find_user" />
 </navigation>

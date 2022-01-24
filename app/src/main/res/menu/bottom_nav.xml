@@ -5,12 +5,17 @@
         android:title="Listings"
         android:icon="@drawable/ic_baseline_format_list_bulleted_24" />
     <item
-        android:title="Notification"
-        android:icon="@drawable/ic_baseline_notifications_24"
+        android:id="@+id/findUserFragment"
+        android:title="findUserFragment"
+        android:icon="@drawable/ic_baseline_person_search_24"/>
+    <item
+        android:title="Favourite"
+        android:icon="@drawable/ic_baseline_favorite_24"
         android:id="@+id/notificationsFragment"/>
     <item
         android:id="@+id/profileFragment"
         android:title="Item"
         android:icon="@drawable/ic_baseline_person_24"/>
+
 
 </menu>

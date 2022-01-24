@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindUserFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/titlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Find user by username"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/titlePage"
+        android:src="@drawable/ic_baseline_person_search_24" />
+
+    <EditText
+        android:id="@+id/search_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlePage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:hint="Username"
+        android:padding="13dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/search_background"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:id="@+id/search"
+        android:padding="13dp"
+        android:backgroundTint="@color/neon_red"
+        android:layout_marginTop="15dp"
+        android:text="search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_user"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+</RelativeLayout>

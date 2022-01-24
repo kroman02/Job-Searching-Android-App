@@ -19,21 +19,21 @@
         app:layout_constraintGuide_begin="73dp" />
 
     <ImageView
-        android:id="@+id/profileImage"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:id="@+id/theirImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:maxWidth="90dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="25dp"
         android:maxHeight="90dp"
         android:layout_alignParentStart="true"
         android:layout_marginTop="100dp"
         android:src="@drawable/square_placeholder" />
 
     <TextView
-        android:id="@+id/profileUsername"
+        android:id="@+id/theirUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/profileImage"
+        android:layout_toRightOf="@id/theirImage"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="100dp"
         android:text="Username"
@@ -41,34 +41,45 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/profileFname"
+        android:id="@+id/theirFname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profileUsername"
+        android:layout_below="@+id/theirUsername"
         android:text="First name: "
-        android:layout_toRightOf="@id/profileImage"
+        android:layout_toRightOf="@id/theirImage"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         />
 
     <TextView
-        android:id="@+id/profileSname"
+        android:id="@+id/theirSname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profileFname"
+        android:layout_below="@+id/theirFname"
         android:text="Last name: "
-        android:layout_toRightOf="@id/profileImage"
+        android:layout_toRightOf="@id/theirImage"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         />
 
     <TextView
-        android:id="@+id/profileProfession"
+        android:id="@+id/theirProfession"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profileSname"
+        android:layout_below="@+id/theirSname"
         android:text="Profession: "
-        android:layout_toRightOf="@id/profileImage"
+        android:layout_toRightOf="@id/theirImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/theirNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theirProfession"
+        android:text="Contact: "
+        android:layout_toRightOf="@id/theirImage"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         />
@@ -78,7 +89,6 @@
         android:layout_marginBottom="150dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/ratingBar"
-        android:isIndicator="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -102,4 +112,12 @@
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
 
+    <Button
+        android:id="@+id/rateUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingLabel"
+        android:layout_marginTop="60dp"
+        android:text="Rate"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
