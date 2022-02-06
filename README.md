@@ -6,7 +6,7 @@ The app allows users to create an account, post and search for jobs and rate oth
 ## Preview
 
 ### Login & Register pages
-![Login & Register](https://im7.ezgif.com/tmp/ezgif-7-c1364d37f7.gif)
+![Login & Register](https://i.postimg.cc/Yq2S07ZH/ezgif-2-a14fa09f3b.gif)
 
 ### Home page with listings & Create a new listing
 ![Home page with listings](https://i.ibb.co/WtLHMXT/image.png)
